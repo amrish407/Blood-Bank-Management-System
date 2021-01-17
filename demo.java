@@ -1,4 +1,4 @@
-[24:49, 11/22/2020] Amrish: import javax.swing.*;
+import javax.swing.*;
 import javax.swing.border.Border;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -290,8 +290,6 @@ public class demo  {
         panel1.setBorder(black);
         panel1.setBackground(Color.white);
         panel1.setVisible(true);
-//        panel1.setVisible(tableModel);
-//        panel1.setVisible(table);
         panel1.add(scrollPane);
 
         f.add(lname);
